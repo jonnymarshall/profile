@@ -8,9 +8,25 @@
   height: 300px;
 }
 
+.btn-indigo {
+ background-color: #4C607E;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 10px;
+}
+
+.btn-indigo:hover {
+ background-color: #222B38;
+ color: white;
+}
+
 img.center {
     display: block;
     margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 .container {
