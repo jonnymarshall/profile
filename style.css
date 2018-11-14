@@ -51,17 +51,30 @@ img.center {
   .container {
     width: 700px;
   }
+  .movie-image {
+    height: 250px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
+  .movie-image {
+    height: 200px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .movie-image {
+    height: 150px;
+  }
+  .list-inline li {
+  display: block;
+  padding: 10px;
   }
 }
 
@@ -94,8 +107,8 @@ p {
   color: #2A3546;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
-
 
 body {
   background-color: #DEEAF7;
