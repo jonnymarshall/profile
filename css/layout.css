@@ -340,7 +340,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: ruby 2s ease;
 }
 .html {
-  	width: 75%;
+  	width: 80%;
   	-moz-animation: html 2s ease;
   	-webkit-animation: html 2s ease;
 }
@@ -350,19 +350,19 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .javascript {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
 .sql {
-    width: 45%;
+    width: 60%;
     -moz-animation: sql 2s ease;
     -webkit-animation: sql 2s ease;
     }
-.jquery {
-  	width: 20%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.react {
+  	width: 35%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -375,7 +375,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -383,15 +383,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 60%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 35%;  }
 }
 
 @-webkit-keyframes photoshop {
@@ -404,7 +404,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -412,15 +412,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 60%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 35%;  }
 }
 
 /* ------------------------------------------------------------------ */
