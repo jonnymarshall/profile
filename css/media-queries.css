@@ -212,6 +212,14 @@
     /* scrolldown link */
    header .scrolldown { display: none; }
 
+   /* Custom */
+  header {
+    background-position: -660px 0px;
+  }
+  header .banner-text {
+    text-align: left;
+    padding-right: 0px;
+  }
 
    /* About Section
    -------------------------------------------------------------------- */
@@ -349,14 +357,18 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   header .banner {
+     /* padding-top: 24px; */
+     padding-top: 395px;
+    }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
-      margin: 0 auto 24px auto;
+      /* margin: 0 auto 24px auto; */
    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      /* width: 90%; */
+      width: 100%;
    }
   
    /* header social links */

@@ -58,8 +58,9 @@ header .banner {
 
 header .banner-text {
   width: 100%;
-  padding-right: 350px;
-  }
+  padding-right: 50%;
+}
+
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -809,6 +810,9 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   /* Custom */
+   width: 100%;
+   text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 
